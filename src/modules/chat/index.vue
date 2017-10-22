@@ -6,7 +6,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import store from './store';
+import store from './_store';
 import ChatList from './_components/ChatList';
 
 export default {
@@ -16,14 +16,14 @@ export default {
   },
   computed: {
     ...mapGetters({
-      messages: 'chat/messages',
+      messages: '$_chat/messages',
     }),
   },
   created() {
-    this.$store.registerModule('chat', store);
+    this.$store.registerModule('$_chat', store);
   },
   mounted() {
-    this.$store.dispatch('chat/getMessages');
+    this.$store.dispatch('$_chat/getMessages');
   },
 };
 </script>

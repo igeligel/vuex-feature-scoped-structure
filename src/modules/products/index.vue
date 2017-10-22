@@ -6,7 +6,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import store from './store';
+import store from './_store';
 import ProductList from './_components/ProductList';
 
 export default {
@@ -16,14 +16,14 @@ export default {
   },
   computed: {
     ...mapGetters({
-      products: 'products/products',
+      products: '$_products/products',
     }),
   },
   created() {
-    this.$store.registerModule('products', store);
+    this.$store.registerModule('$_products', store);
   },
   mounted() {
-    this.$store.dispatch('products/getProducts');
+    this.$store.dispatch('$_products/getProducts');
   },
 };
 </script>

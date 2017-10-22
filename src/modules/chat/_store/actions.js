@@ -1,4 +1,4 @@
-import api from '../api';
+import api from '../_api';
 
 const getMessages = (context) => {
   api.fetchMessages
