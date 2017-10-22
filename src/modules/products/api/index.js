@@ -29,6 +29,6 @@ const fetchProducts = new Promise((resolve) => {
   }, 750);
 });
 
-export {
+export default {
   fetchProducts,
 };

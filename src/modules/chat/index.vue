@@ -6,12 +6,11 @@
 
 <script>
 import { mapGetters } from 'vuex';
-
 import store from './store';
 import ChatList from './_components/ChatList';
 
 export default {
-  name: 'Chat',
+  name: 'ChatModule',
   components: {
     ChatList,
   },
@@ -28,7 +27,3 @@ export default {
   },
 };
 </script>
-
-<style>
-
-</style>

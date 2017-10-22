@@ -1,7 +1,7 @@
-import { fetchProducts } from '@/api';
+import api from '../api';
 
 const getProducts = (context) => {
-  fetchProducts
+  api.fetchProducts
     .then((response) => {
       context.commit('PRODUCTS_UPDATED', response);
     })

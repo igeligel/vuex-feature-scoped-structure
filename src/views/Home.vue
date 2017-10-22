@@ -1,17 +1,20 @@
 <template>
   <div>
     <h1>Home</h1>
-    <Chat />
+    <ChatContainer />
+    <ProductsContainer />
   </div>
 </template>
 
 <script>
-import Chat from '@/modules/chat';
+import ChatContainer from '@/modules/chat';
+import ProductsContainer from '@/modules/products';
 
 export default {
   name: 'Home',
   components: {
-    Chat,
+    ChatContainer,
+    ProductsContainer,
   },
 };
 </script>
