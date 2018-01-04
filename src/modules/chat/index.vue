@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <ChatList :messages="messages" />
-  </div>
+  <ChatList :messages="messages" />
 </template>
 
 <script>
