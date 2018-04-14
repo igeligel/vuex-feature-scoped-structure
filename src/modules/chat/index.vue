@@ -18,7 +18,11 @@ export default {
     }),
   },
   created() {
-    this.$store.registerModule('$_chat', store);
+    const STORE_KEY = '$_chat';
+    // eslint-disable-next-line no-underscore-dangle
+    if (!(STORE_KEY in this.$store._modules.root._children)) {
+      this.$store.registerModule(STORE_KEY, store);
+    }
   },
   mounted() {
     this.$store.dispatch('$_chat/getMessages');
