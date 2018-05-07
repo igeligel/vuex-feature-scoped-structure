@@ -51,7 +51,7 @@
     "semver": "^5.5.0",
     "shelljs": "^0.8.1",
     "url-loader": "^1.0.1",
-    "vue-loader": "^15.0.7",
+    "vue-loader": "^15.0.9",
     "vue-style-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^3.11.0",
