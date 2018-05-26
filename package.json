@@ -16,7 +16,7 @@
   "description":
     "A Vue.js project showcasing Feature scoped Vuex modules to have a better organization of business logic code inside Vuex modules based on Large-scale Vuex application structures",
   "devDependencies": {
-    "autoprefixer": "^8.5.0",
+    "autoprefixer": "^8.5.1",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.4",
@@ -52,11 +52,11 @@
     "semver": "^5.5.0",
     "shelljs": "^0.8.2",
     "url-loader": "^1.0.1",
-    "vue-loader": "^15.1.0",
+    "vue-loader": "^15.2.1",
     "vue-style-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^3.12.0",
-    "webpack-bundle-analyzer": "^2.12.0",
+    "webpack-bundle-analyzer": "^2.13.1",
     "webpack-dev-middleware": "^2.0.6",
     "webpack-hot-middleware": "^2.22.2",
     "webpack-merge": "^4.1.2"
